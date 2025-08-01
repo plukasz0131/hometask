@@ -18,3 +18,7 @@ export const ERROR_MESSAGES = {
   NAME_REQUIRED: "Name is required.",
   NAME_VALIDATION: "Only English letters and spaces allowed for name.",
 } as const;
+
+export const VALIDATION_PATTERNS = {
+  NAME: /^[a-zA-Z\s]+$/,
+} as const; 
