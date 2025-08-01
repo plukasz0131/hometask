@@ -10,4 +10,7 @@ export default defineConfig({
       '@': '/src', // Set '@' to point to 'src' directory
     },
   },
+  server: {
+    port: 3000, // or another port of your choice
+  },
 })
