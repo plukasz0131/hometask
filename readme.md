@@ -41,31 +41,31 @@ Follow these steps to set up the project locally.
 
 Clone the repository to your local machine:
 
+```bash
 git clone https://github.com/plukasz0131/hometask.git
 cd hometask
+```
 
-2. Install all dependencies
+#### 2. Install all dependencies
 To install dependencies for both the frontend (client), backend (server), and the root directory, run the following command:
 
+```bash
 npm run install-dependencies
+```
+
 This will install the necessary dependencies in the root directory, as well as in the client and server directories.
 
-3. Running the Application
-Once the dependencies are installed, you can run both the server and the client.
+#### 3. ### Running the Application
 
-Start the backend server:
+Once the dependencies are installed, you can run both the server and the client with a single command.
 
-Navigate to the server directory and run:
+**Start both the backend server and the frontend client**:
 
-npm run dev
-The backend server will start at http://localhost:8000.
+  From the root directory of your project, simply run:
 
-Start the frontend client:
-
-Navigate to the client directory and run:
-
-npm run dev
-The frontend React app will start at http://localhost:3000.
+  ```bash
+  npm run dev
+  ```
 
 Development
 Frontend
